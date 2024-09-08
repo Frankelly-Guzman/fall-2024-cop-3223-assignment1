@@ -110,7 +110,7 @@ double calculatePerimeter() {
 
     printf("Point #1 entered: x1 = %lf; y1 = %lf\n", x1, y1); // Print the first coordinate pair
     printf("Point #2 entered: x2 = %lf; y2 = %lf\n", x2, y2); // Print the second coordinate pair
-    printf("The perimeter of the city encompassed by your request is %lf\n", perimeter);
+    printf("The perimeter of the city encompassed by your request is %.3lf\n", perimeter);
     
     return 1.0;
 }
@@ -139,7 +139,7 @@ double calculateArea() {
 
     printf("Point #1 entered: x1 = %lf; y1 = %lf\n", x1, y1); // Print the first coordinate pair
     printf("Point #2 entered: x2 = %lf; y2 = %lf\n", x2, y2); // Print the second coordinate pair
-    printf("The area of the city encompassed by your request is %lf\n", area);
+    printf("The area of the city encompassed by your request is %.3lf\n", area);
 
     return 1.0;
 }
